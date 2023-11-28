@@ -1,6 +1,6 @@
 TODO:
 
-1.- Implementar paleta de colores por clases
+1.- Implementar paleta de colores por clases (light)
 2.- Tipografia (tamaños, anchos, fuente)
 3.- Especificaciones de grillas
 4.- Estilos de card (Daniela)
