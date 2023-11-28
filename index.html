@@ -50,7 +50,7 @@
               <button class="accionable">Acción</button>
             </div>
           </div>
-          <div class="gridItem col-12">
+          <!-- <div class="gridItem col-12">
             <div class="card">
               <h2>Título de la Tarjeta</h2>
               <p>
@@ -59,13 +59,29 @@
               </p>
               <button class="accionable">Acción</button>
             </div>
-          </div>
+          </div> -->
           <!-- Agrega más gridItems según sea necesario -->
         </div>
       </main>
-
       <footer>
-        <!-- Tu pie de página aquí -->
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+          <h2 class="txt-centrado">Título de la sección de contacto</h2>
+          <form class="form">
+            <div class="input-group">
+              <input type="text" id="name" name="name" placeholder="Nombre" />
+            </div>
+            <div class="input-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Correo"
+              />
+            </div>
+            <button type="submit" class="accionable">Label</button>
+          </form>
+        </section>
       </footer>
     </div>
   </body>
@@ -90,7 +106,8 @@
   .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 20px;
+    padding: 50px;
+    margin: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
@@ -102,7 +119,7 @@
     color: #666;
   }
 
-  .accionable {
+  /* .accionable {
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
@@ -110,7 +127,7 @@
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-  }
+  } */
 
   .gridContainer {
     display: flex;
@@ -124,6 +141,53 @@
     box-sizing: border-box;
     padding: 10px;
   }
+
+  /* Estilos para la sección de Contacto */
+#contacto {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align:justify;
+
+ }
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #f2f2f2;
+    /* display: inline-block; */
+    border: none ;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  
+ .accionable {
+    background-color: #008CBA; /* Azul */
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+} 
 
   /* Estilos base para dispositivos móviles */
   .col-1,
