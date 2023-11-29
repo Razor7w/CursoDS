@@ -32,6 +32,275 @@
 
 /* H1 */
 .H1-Light {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 76px;
+}
+
+.H1-Regular {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px;
+}
+
+.H1-Medium {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 76px;
+}
+
+.H1-Bold {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 76px;
+}
+
+/* H2 */
+.H2-Light {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.H2-Regular {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.H2-Medium {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.H2-Bold {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* H3 */
+.H3-Light {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.H3-Regular {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.H3-Medium {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.H3-Bold {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+/* H4 */
+.H4-Light {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.H4-Regular {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.H4-Medium {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.H4-Bold {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+/* Body */
+
+/* Body-Large */
+.Body-Large-Light {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.Body-Large-Regular {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Body-Large-Medium {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Body-Large-Bold {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Body-Medium */
+.Body-Medium-Light {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.Body-Medium-Regular {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Body-Medium-Medium {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Body-Medium-Bold {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Body-Small */
+.Body-Small-Light {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.Body-Small-Regular {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Body-Small-Medium {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.Body-Small-Bold {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.text-title {
+  color: var(--Blue-600);
+}
+
+/* COLORS */
+
+:root {
+  /* Blue */
+  --Blue-100: #0076a9;
+  --Blue-200: #008ec4;
+  --Blue-300: #1896d3;
+  --Blue-400: #4ebce3;
+  --Blue-500: #92d5f1;
+  --Blue-600: #def4ff;
+  /* Violet */
+  --Violet-100: #301637;
+  --Violet-200: #39213f;
+  --Violet-300: #653c72;
+  --Violet-400: #9558a7;
+  --Violet-500: #bf9bca;
+  --Violet-600: #eadeed;
+  /* Gray */
+  --Gray-100: #2d2929;
+  --Gray-200: #3c3636;
+  --Gray-300: #4b4444;
+  --Gray-400: #6f6969;
+  --Gray-500: #938f8f;
+  --Gray-600: #b7b4b4;
+  /* Base colors */
+  --Primary: var(--Blue-100);
+  --Secondary: var(--Violet-100);
+  --Tertiary: var(--Gray-100);
+}
+
+/* TYPOGRAPHY */
+
+/* H1 */
+.H1-Light {
   color: #fff;
   font-family: "Lato";
   font-size: 64px;
