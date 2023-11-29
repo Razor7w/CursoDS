@@ -14,14 +14,16 @@
       <main>
         <div class="gridContainer">
           <div class="gridItem col-12">
-            <div class="card">
-              <h1 class="txt-centrado">Título página</h1>
-              <p class="txt-centrado">Texto de bajada</p>
+            <div class="card-1">
+              <h1 class="gridItem">Envía mensajes privados</h1>
+              <p class="gridItem">
+                Mensajes y llamadas gratis de forma simple, confiable y privada*, disponibles en todo el mundo.
+              </p>
             </div>
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <img src="img/img1.jpg" alt="Avatar" class="image">
+              <img src="img/img1.jpg" alt="Avatar" class="image" />
               <h2>Título de la Tarjeta</h2>
               <p>
                 Texto descriptivo de la tarjeta. Puedes agregar más detalles
@@ -32,9 +34,9 @@
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <img src="img/img4.jpg" alt="Avatar" class="image">
-              <h2>Título de la Tarjeta</h2>
-              <p>
+              <img src="img/img4.jpg" alt="Avatar" class="image" />
+              <h2 class="gridItem1">Título de la Tarjeta</h2>
+              <p class="gridItem2">
                 Texto descriptivo de la tarjeta. Puedes agregar más detalles
                 aquí.
               </p>
@@ -43,7 +45,7 @@
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <img src="img/img3.jpg" alt="Avatar" class="image">
+              <img src="img/img3.jpg" alt="Avatar" class="image" />
               <h2>Título de la Tarjeta</h2>
               <p>
                 Texto descriptivo de la tarjeta. Puedes agregar más detalles
@@ -55,38 +57,52 @@
         </div>
       </main>
     </div>
-      <footer>
-        <!-- Sección de Contacto -->
-        <section id="contacto">
-          <h2 class="txt-centrado">Contáctanos</h2>
-          <form class="form">
-            <div class="input-group">
-              <div class="columna">
-                <label for="name">Nombre:</label>
-                <input type="text" id="name" name="name" placeholder="Nombre" />
-              </div>
-              <div class="columna">
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
-              </div>
+    <footer>
+      <!-- Sección de Contacto -->
+      <section id="contacto">
+        <h2 class="txt-centrado">Contáctanos</h2>
+        <form class="form">
+          <div class="input-group">
+            <div class="columna">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" placeholder="Nombre" />
             </div>
-            <div class="input-group">
-              <div class="columna">
-                <label for="email">Correo:</label>
-                <input type="email" id="email" name="email" placeholder="Correo" />
-              </div>
-              <div class="columna">
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono" placeholder="Telefono" />
-              </div>
+            <div class="columna">
+              <label for="apellido">Apellido:</label>
+              <input
+                type="text"
+                id="apellido"
+                name="apellido"
+                placeholder="Apellido"
+              />
             </div>
-            <div class="button-group">
-              <button type="submit" class="accionable">Enviar</button>
+          </div>
+          <div class="input-group">
+            <div class="columna">
+              <label for="email">Correo:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Correo"
+              />
             </div>
-          </form>
-        </section>
-      </footer>
-   
+            <div class="columna">
+              <label for="telefono">Teléfono:</label>
+              <input
+                type="text"
+                id="telefono"
+                name="telefono"
+                placeholder="Telefono"
+              />
+            </div>
+          </div>
+          <div class="button-group">
+            <button type="submit" class="accionable">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
 
@@ -105,6 +121,31 @@
     margin: 0 auto;
     padding: 0px;
   }
+  /* Estilos para la tarjeta */
+  .card-1 {
+    background: url(img/img5.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+
+  .gridItem1 .card-1 .content h1 {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  .gridItem .card-1 .content p {
+    font-size: 16px;
+    font-family: Arial;
+  }
 
   .card {
     display: flex;
@@ -114,7 +155,7 @@
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  img{
+  img {
     width: 100%;
     height: 150px;
     object-fit: cover;
@@ -153,21 +194,20 @@
   }
 
   /* Estilos para la sección de Contacto */
-#contacto {
-    background-color: #EADEED;
+  #contacto {
+    background-color: #eadeed;
     padding: 20px;
-    text-align:justify;
+    text-align: justify;
+  }
 
- }
-
-.form {
+  .form {
     display: flex;
     flex-direction: column;
     /* align-items: center;
     justify-content: center; */
     margin: 20px;
   }
-  
+
   .input-group {
     display: flex;
     justify-content: center;
@@ -178,25 +218,25 @@
     margin-right: 15px;
     max-width: 400px;
   }
-  
-  input[type=text], input[type=email] {
+
+  input[type="text"],
+  input[type="email"] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     background-color: #f2f2f2;
-    border: 1px solid #2e2e2e ;
-    border-radius: 6px;
+    border: 1px solid #2e2e2e;
+    border-radius: 12px;
     box-sizing: border-box;
   }
-  .button-group{
+  .button-group {
     display: flex;
     justify-content: center;
     margin-top: 10px;
   }
 
-  
- .accionable {
-    background-color: #008CBA; 
+  .accionable {
+    background-color: #008cba;
     width: 200px;
     border: none;
     color: white;
@@ -208,7 +248,7 @@
     font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
-} 
+  }
 
   /* Estilos base para dispositivos móviles */
   .col-1,
@@ -268,8 +308,6 @@
 
   .txt-centrado {
     text-align: center;
-    margin: 0; /* Para quitar el margen predeterminado y evitar espacios no deseados */
+    margin: 0;
   }
-
-  /* Estilos adicionales según sea necesario */
 </style>
