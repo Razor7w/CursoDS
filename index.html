@@ -20,10 +20,13 @@
         <div class="gridContainer">
           <div class="gridItem col-12">
             <div class="card-1">
-              <h1 class="gridItem">Envía mensajes privados</h1>
-              <p class="gridItem">
-                Mensajes y llamadas gratis de forma simple, confiable y privada*, disponibles en todo el mundo.
+              <div class="content">
+              <h1>Envía mensajes privados</h1>
+              <p>
+                Mensajes y llamadas gratis de forma simple, confiable y
+                privada*, disponibles en todo el mundo.
               </p>
+            </div>
             </div>
           </div>
           <div class="gridItem col-4">
@@ -128,6 +131,7 @@
   }
   /* Estilos para la tarjeta */
   .card-1 {
+    position: relative;
     background: url(img/img5.png) no-repeat center center;
     background-size: cover;
     width: 100%;
@@ -137,19 +141,28 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    position: relative;
+  }
+  /* Estilos para el contenido */
+  .card-1 .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    width: 526px; /* Ajusta este valor al ancho que desees para el texto */
+    padding: 20px;
   }
 
-  .gridItem1 .card-1 .content h1 {
-    font-size: 100px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   .card-1 .content h1 {
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
     color: #ffffff;
   }
 
-  .gridItem .card-1 .content p {
-    font-size: 16px;
+  .card-1 .content p {
+    font-size: 24px;
     font-family: Arial;
+    max-width: 526px;
   }
 
   .card {
