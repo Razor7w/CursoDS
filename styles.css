@@ -60,7 +60,6 @@
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 76px;
 }
 
 /* H2 */
@@ -151,7 +150,6 @@
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
-  line-height: 32px;
 }
 
 .H4-Bold {
@@ -301,7 +299,6 @@
 
 /* H1 */
 .H1-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -310,7 +307,6 @@
 }
 
 .H1-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -319,7 +315,6 @@
 }
 
 .H1-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -328,17 +323,14 @@
 }
 
 .H1-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
-  line-height: 76px;
 }
 
 /* H2 */
 .H2-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -347,7 +339,6 @@
 }
 
 .H2-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -356,7 +347,6 @@
 }
 
 .H2-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -365,7 +355,6 @@
 }
 
 .H2-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -375,7 +364,6 @@
 
 /* H3 */
 .H3-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -384,7 +372,6 @@
 }
 
 .H3-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -393,7 +380,6 @@
 }
 
 .H3-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -402,7 +388,6 @@
 }
 
 .H3-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -412,7 +397,6 @@
 
 /* H4 */
 .H4-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -421,7 +405,6 @@
 }
 
 .H4-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -430,7 +413,6 @@
 }
 
 .H4-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -439,7 +421,6 @@
 }
 
 .H4-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -451,7 +432,6 @@
 
 /* Body-Large */
 .Body-Large-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -460,7 +440,6 @@
 }
 
 .Body-Large-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -469,7 +448,6 @@
 }
 
 .Body-Large-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -478,7 +456,6 @@
 }
 
 .Body-Large-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -488,7 +465,6 @@
 
 /* Body-Medium */
 .Body-Medium-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -497,7 +473,6 @@
 }
 
 .Body-Medium-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -506,7 +481,6 @@
 }
 
 .Body-Medium-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -515,7 +489,6 @@
 }
 
 .Body-Medium-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -525,7 +498,6 @@
 
 /* Body-Small */
 .Body-Small-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -534,7 +506,6 @@
 }
 
 .Body-Small-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -543,7 +514,6 @@
 }
 
 .Body-Small-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -552,10 +522,238 @@
 }
 
 .Body-Small-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.contenedor {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/* Estilos para la tarjeta */
+.card-1 {
+  position: relative;
+  background: url(img/img5.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Estilos para el contenido */
+.card-1 .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 526px; /* Ajusta este valor al ancho que desees para el texto */
+  padding: 20px;
+}
+
+.card-1 .content h1 {
+  margin-bottom: 10px;
+  color: var(--Blue-600);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 24px 16px;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: 40% 40%;
+}
+
+h2 {
+  color: #333;
+}
+
+/* .accionable {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gridItem {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+  background-color: #eadeed;
+  padding: 20px;
+  text-align: justify;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+.columna {
+  flex: 1;
+  margin-right: 15px;
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #f2f2f2;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.accionable {
+  background-color: #008cba;
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  /* display: flex; */
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Estilos base para dispositivos móviles */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 100%;
+}
+
+/* Media query para dispositivos con un ancho mínimo de 600px (Tablet - Md) */
+@media (min-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    width: 100%;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 768px (Desktop - Md) */
+@media (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 992px (Desktop - Lg) */
+@media (min-width: 992px) {
+  .gridContainer {
+    margin: 0 72px;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 1200px (Desktop - Xl) */
+@media (min-width: 1200px) {
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+.txt-centrado {
+  text-align: center;
+  margin: 0;
 }
