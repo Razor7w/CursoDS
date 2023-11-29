@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Tu Página</title>
   </head>
@@ -11,180 +16,106 @@
       <header>
         <!-- Tu encabezado aquí -->
       </header>
-
       <main>
         <div class="gridContainer">
           <div class="gridItem col-12">
-            <div class="card">
-              <h1 class="txt-centrado">Título página</h1>
-              <p class="txt-centrado">Texto de bajada</p>
+            <div class="card-1">
+              <div class="content">
+                <h1 class="H1-Bold">Envía mensajes privados</h1>
+                <p class="H4-Medium">
+                  Mensajes y llamadas gratis de forma simple, confiable y
+                  privada*, disponibles en todo el mundo.
+                </p>
+              </div>
             </div>
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <h2>Título de la Tarjeta</h2>
-              <p>
-                Texto descriptivo de la tarjeta. Puedes agregar más detalles
-                aquí.
-              </p>
-              <button class="accionable">Acción</button>
+              <img src="img/img1.jpg" alt="Avatar" class="image" />
+              <div class="card-content">
+                <h2 class="Body-Large-Bold">Título de la Tarjeta</h2>
+                <p class="Body-Medium-Regular">
+                  Texto descriptivo de la tarjeta. Puedes agregar más detalles
+                  aquí.
+                </p>
+                <button class="accionable">Conocer más ></button>
+              </div>
             </div>
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <h2>Título de la Tarjeta</h2>
-              <p>
-                Texto descriptivo de la tarjeta. Puedes agregar más detalles
-                aquí.
-              </p>
-              <button class="accionable">Acción</button>
+              <img src="img/img4.jpg" alt="Avatar" class="image" />
+              <div class="card-content">
+                <h2 class="Body-Large-Bold">Título de la Tarjeta</h2>
+                <p class="Body-Medium-Regular">
+                  Texto descriptivo de la tarjeta. Puedes agregar más detalles
+                  aquí.
+                </p>
+                <button class="accionable">Conocer más ></button>
+              </div>
             </div>
           </div>
           <div class="gridItem col-4">
             <div class="card">
-              <h2>Título de la Tarjeta</h2>
-              <p>
-                Texto descriptivo de la tarjeta. Puedes agregar más detalles
-                aquí.
-              </p>
-              <button class="accionable">Acción</button>
+              <img src="img/img3.jpg" alt="Avatar" class="image" />
+              <div class="card-content">
+                <h2 class="Body-Large-Bold">Título de la Tarjeta</h2>
+                <p class="Body-Medium-Regular">
+                  Texto descriptivo de la tarjeta. Puedes agregar más detalles
+                  aquí.
+                </p>
+                <button class="accionable">Conocer más ></button>
+              </div>
             </div>
           </div>
-          <div class="gridItem col-12">
-            <div class="card">
-              <h2>Título de la Tarjeta</h2>
-              <p>
-                Texto descriptivo de la tarjeta. Puedes agregar más detalles
-                aquí.
-              </p>
-              <button class="accionable">Acción</button>
-            </div>
-          </div>
-          <!-- Agrega más gridItems según sea necesario -->
         </div>
       </main>
-
-      <footer>
-        <!-- Tu pie de página aquí -->
-      </footer>
     </div>
+    <footer>
+      <!-- Sección de Contacto -->
+      <section id="contacto">
+        <h2 class="txt-centrado">Contáctanos</h2>
+        <form class="form">
+          <div class="input-group">
+            <div class="columna">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" placeholder="Nombre" />
+            </div>
+            <div class="columna">
+              <label for="apellido">Apellido:</label>
+              <input
+                type="text"
+                id="apellido"
+                name="apellido"
+                placeholder="Apellido"
+              />
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="columna">
+              <label for="email">Correo:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Correo"
+              />
+            </div>
+            <div class="columna">
+              <label for="telefono">Teléfono:</label>
+              <input
+                type="text"
+                id="telefono"
+                name="telefono"
+                placeholder="Telefono"
+              />
+            </div>
+          </div>
+          <div class="button-group">
+            <button type="submit" class="accionable">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </footer>
   </body>
 </html>
-
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-
-  .contenedor {
-    flex: 1;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  h2 {
-    color: #333;
-  }
-
-  p {
-    color: #666;
-  }
-
-  .accionable {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-
-  .gridContainer {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  .gridItem {
-    box-sizing: border-box;
-    padding: 10px;
-  }
-
-  /* Estilos base para dispositivos móviles */
-  .col-1,
-  .col-2,
-  .col-3,
-  .col-4,
-  .col-5,
-  .col-6,
-  .col-7,
-  .col-8,
-  .col-9,
-  .col-10,
-  .col-11,
-  .col-12 {
-    width: 100%;
-  }
-
-  /* Media query para dispositivos con un ancho mínimo de 600px (puedes ajustar este valor según tus necesidades) */
-  @media (min-width: 600px) {
-    .col-1 {
-      width: 8.33%;
-    }
-    .col-2 {
-      width: 16.66%;
-    }
-    .col-3 {
-      width: 25%;
-    }
-    .col-4 {
-      width: 33.33%;
-    }
-    .col-5 {
-      width: 41.66%;
-    }
-    .col-6 {
-      width: 50%;
-    }
-    .col-7 {
-      width: 58.33%;
-    }
-    .col-8 {
-      width: 66.66%;
-    }
-    .col-9 {
-      width: 75%;
-    }
-    .col-10 {
-      width: 83.33%;
-    }
-    .col-11 {
-      width: 91.66%;
-    }
-    .col-12 {
-      width: 100%;
-    }
-  }
-
-  .txt-centrado {
-    text-align: center;
-    margin: 0; /* Para quitar el margen predeterminado y evitar espacios no deseados */
-  }
-
-  /* Estilos adicionales según sea necesario */
-</style>

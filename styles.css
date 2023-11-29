@@ -1,0 +1,759 @@
+/* COLORS */
+
+:root {
+  /* Blue */
+  --Blue-100: #0076a9;
+  --Blue-200: #008ec4;
+  --Blue-300: #1896d3;
+  --Blue-400: #4ebce3;
+  --Blue-500: #92d5f1;
+  --Blue-600: #def4ff;
+  /* Violet */
+  --Violet-100: #301637;
+  --Violet-200: #39213f;
+  --Violet-300: #653c72;
+  --Violet-400: #9558a7;
+  --Violet-500: #bf9bca;
+  --Violet-600: #eadeed;
+  /* Gray */
+  --Gray-100: #2d2929;
+  --Gray-200: #3c3636;
+  --Gray-300: #4b4444;
+  --Gray-400: #6f6969;
+  --Gray-500: #938f8f;
+  --Gray-600: #b7b4b4;
+  /* Base colors */
+  --Primary: var(--Blue-100);
+  --Secondary: var(--Violet-100);
+  --Tertiary: var(--Gray-100);
+}
+
+/* TYPOGRAPHY */
+
+/* H1 */
+.H1-Light {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 76px;
+}
+
+.H1-Regular {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px;
+}
+
+.H1-Medium {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 76px;
+}
+
+.H1-Bold {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* H2 */
+.H2-Light {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.H2-Regular {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.H2-Medium {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.H2-Bold {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* H3 */
+.H3-Light {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.H3-Regular {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.H3-Medium {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.H3-Bold {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+/* H4 */
+.H4-Light {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.H4-Regular {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.H4-Medium {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.H4-Bold {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+/* Body */
+
+/* Body-Large */
+.Body-Large-Light {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.Body-Large-Regular {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Body-Large-Medium {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Body-Large-Bold {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Body-Medium */
+.Body-Medium-Light {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.Body-Medium-Regular {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Body-Medium-Medium {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Body-Medium-Bold {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Body-Small */
+.Body-Small-Light {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.Body-Small-Regular {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Body-Small-Medium {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.Body-Small-Bold {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.text-title {
+  color: var(--Blue-600);
+}
+
+/* COLORS */
+
+:root {
+  /* Blue */
+  --Blue-100: #0076a9;
+  --Blue-200: #008ec4;
+  --Blue-300: #1896d3;
+  --Blue-400: #4ebce3;
+  --Blue-500: #92d5f1;
+  --Blue-600: #def4ff;
+  /* Violet */
+  --Violet-100: #301637;
+  --Violet-200: #39213f;
+  --Violet-300: #653c72;
+  --Violet-400: #9558a7;
+  --Violet-500: #bf9bca;
+  --Violet-600: #eadeed;
+  /* Gray */
+  --Gray-100: #2d2929;
+  --Gray-200: #3c3636;
+  --Gray-300: #4b4444;
+  --Gray-400: #6f6969;
+  --Gray-500: #938f8f;
+  --Gray-600: #b7b4b4;
+  /* Base colors */
+  --Primary: var(--Blue-100);
+  --Secondary: var(--Violet-100);
+  --Tertiary: var(--Gray-100);
+}
+
+/* TYPOGRAPHY */
+
+/* H1 */
+.H1-Light {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 76px;
+}
+
+.H1-Regular {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 76px;
+}
+
+.H1-Medium {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 76px;
+}
+
+.H1-Bold {
+  font-family: "Lato";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* H2 */
+.H2-Light {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px;
+}
+
+.H2-Regular {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.H2-Medium {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+.H2-Bold {
+  font-family: "Lato";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+/* H3 */
+.H3-Light {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.H3-Regular {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.H3-Medium {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.H3-Bold {
+  font-family: "Lato";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+/* H4 */
+.H4-Light {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.H4-Regular {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.H4-Medium {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.H4-Bold {
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+/* Body */
+
+/* Body-Large */
+.Body-Large-Light {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.Body-Large-Regular {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Body-Large-Medium {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.Body-Large-Bold {
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* Body-Medium */
+.Body-Medium-Light {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.Body-Medium-Regular {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.Body-Medium-Medium {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.Body-Medium-Bold {
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+/* Body-Small */
+.Body-Small-Light {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.Body-Small-Regular {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Body-Small-Medium {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.Body-Small-Bold {
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato";
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.contenedor {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px;
+}
+/* Estilos para la tarjeta */
+.card-1 {
+  position: relative;
+  background: url(img/img5.png) no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+/* Estilos para el contenido */
+.card-1 .content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 526px; /* Ajusta este valor al ancho que desees para el texto */
+  padding: 20px;
+}
+
+.card-1 .content h1 {
+  margin-bottom: 10px;
+  color: var(--Blue-600);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 24px 16px;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: 40% 40%;
+}
+
+h2 {
+  color: #333;
+}
+
+/* .accionable {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+} */
+
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gridItem {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Estilos para la sección de Contacto */
+#contacto {
+  background-color: #eadeed;
+  padding: 20px;
+  text-align: justify;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  margin: 20px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+.columna {
+  flex: 1;
+  margin-right: 15px;
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #f2f2f2;
+  border: 1px solid #2e2e2e;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.accionable {
+  background-color: #008cba;
+  width: 200px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  /* display: flex; */
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Estilos base para dispositivos móviles */
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 100%;
+}
+
+/* Media query para dispositivos con un ancho mínimo de 600px (Tablet - Md) */
+@media (min-width: 600px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    width: 100%;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 768px (Desktop - Md) */
+@media (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 992px (Desktop - Lg) */
+@media (min-width: 992px) {
+  .gridContainer {
+    margin: 0 72px;
+  }
+}
+
+/* Media query para dispositivos con un ancho mínimo de 1200px (Desktop - Xl) */
+@media (min-width: 1200px) {
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+.txt-centrado {
+  text-align: center;
+  margin: 0;
+}

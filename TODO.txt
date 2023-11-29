@@ -1,0 +1,9 @@
+TODO:
+
+1.- Implementar paleta de colores por clases (light) (Ok)
+2.- Tipografia (tamaños, anchos, fuente) (Ok)
+3.- Especificaciones de grillas
+4.- Estilos de card (Daniela)
+5.- Estilo de input (Daniela)
+6.- Estilo de boton (Daniela)
+7.- Generar Contacto (Daniela)
