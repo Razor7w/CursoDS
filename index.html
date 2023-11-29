@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,500,700"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Tu Página</title>
   </head>
@@ -109,7 +114,7 @@
 <style>
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Lato";
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -266,8 +271,20 @@
     width: 100%;
   }
 
-  /* Media query para dispositivos con un ancho mínimo de 600px (puedes ajustar este valor según tus necesidades) */
+  /* Media query para dispositivos con un ancho mínimo de 600px (Tablet - Md) */
   @media (min-width: 600px) {
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6 {
+      width: 100%;
+    }
+  }
+
+  /* Media query para dispositivos con un ancho mínimo de 768px (Desktop - Md) */
+  @media (min-width: 768px) {
     .col-1 {
       width: 8.33%;
     }
@@ -286,6 +303,17 @@
     .col-6 {
       width: 50%;
     }
+  }
+
+  /* Media query para dispositivos con un ancho mínimo de 992px (Desktop - Lg) */
+  @media (min-width: 992px) {
+    .gridContainer {
+      margin: 0 72px;
+    }
+  }
+
+  /* Media query para dispositivos con un ancho mínimo de 1200px (Desktop - Xl) */
+  @media (min-width: 1200px) {
     .col-7 {
       width: 58.33%;
     }
@@ -305,7 +333,6 @@
       width: 100%;
     }
   }
-
   .txt-centrado {
     text-align: center;
     margin: 0;
