@@ -662,7 +662,7 @@ input[type="email"] {
 
 .accionable {
   background-color: #008cba;
-  width: 200px;
+  width: 100%;
   border: none;
   color: white;
   padding: 12px 30px;
