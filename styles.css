@@ -32,7 +32,6 @@
 
 /* H1 */
 .H1-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -41,7 +40,6 @@
 }
 
 .H1-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -50,7 +48,6 @@
 }
 
 .H1-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -59,7 +56,6 @@
 }
 
 .H1-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 64px;
   font-style: normal;
@@ -69,7 +65,6 @@
 
 /* H2 */
 .H2-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -78,7 +73,6 @@
 }
 
 .H2-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -87,7 +81,6 @@
 }
 
 .H2-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -96,7 +89,6 @@
 }
 
 .H2-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 48px;
   font-style: normal;
@@ -106,7 +98,6 @@
 
 /* H3 */
 .H3-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -115,7 +106,6 @@
 }
 
 .H3-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -124,7 +114,6 @@
 }
 
 .H3-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -133,7 +122,6 @@
 }
 
 .H3-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 36px;
   font-style: normal;
@@ -143,7 +131,6 @@
 
 /* H4 */
 .H4-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -152,7 +139,6 @@
 }
 
 .H4-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -161,7 +147,6 @@
 }
 
 .H4-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -170,7 +155,6 @@
 }
 
 .H4-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 24px;
   font-style: normal;
@@ -182,7 +166,6 @@
 
 /* Body-Large */
 .Body-Large-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -191,7 +174,6 @@
 }
 
 .Body-Large-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -200,7 +182,6 @@
 }
 
 .Body-Large-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -209,7 +190,6 @@
 }
 
 .Body-Large-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 18px;
   font-style: normal;
@@ -219,7 +199,6 @@
 
 /* Body-Medium */
 .Body-Medium-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -228,7 +207,6 @@
 }
 
 .Body-Medium-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -237,7 +215,6 @@
 }
 
 .Body-Medium-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -246,7 +223,6 @@
 }
 
 .Body-Medium-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 16px;
   font-style: normal;
@@ -256,7 +232,6 @@
 
 /* Body-Small */
 .Body-Small-Light {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -265,7 +240,6 @@
 }
 
 .Body-Small-Regular {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -274,7 +248,6 @@
 }
 
 .Body-Small-Medium {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
@@ -283,10 +256,13 @@
 }
 
 .Body-Small-Bold {
-  color: #fff;
   font-family: "Lato";
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
+}
+
+.text-title {
+  color: var(--Blue-600);
 }
