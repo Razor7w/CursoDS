@@ -661,8 +661,23 @@ input[type="email"] {
 }
 
 .accionable {
-  background-color: #008cba;
+  background-color: #0076a9;
   width: 100%;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  /* display: flex; */
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.accionable-enviar {
+  background-color: #0076a9;
+  width: 25%;
   border: none;
   color: white;
   padding: 12px 30px;
